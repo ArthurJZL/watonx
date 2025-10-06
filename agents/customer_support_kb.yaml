@@ -1,0 +1,8 @@
+spec_version: v1
+kind: knowledge_base
+name: customer_support_kb
+description: Customer support knowledge base containing return policies, shipping information, warranty details, and frequently asked questions
+documents:
+  - path: /Users/zhengliangjin/Desktop/Projects/watonx/knowledge_base/customer_support_kb.pdf
+vector_index:
+  embeddings_model_name: ibm/slate-125m-english-rtrvr-v2
